@@ -1,2 +1,38 @@
 /* YOUR CUSTOM STYLES */
 
+/*.carousel {
+    height: 245px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}*/
+
+.carousel-control.left,
+.carousel-control.right {
+  background: none;
+  border: none;
+}
+
+.carousel-control.left {
+  margin-left: -25px;
+}
+
+.carousel-control.right {
+  margin-right: -25px;
+}
+
+.carousel-control {
+  width: 0%;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+    width:10px;
+    height:10px;
+    /* margin-top: -15px; */
+    font-size: 70px;
+}
+
+.carousel-thumbnails .carousel-indicators {
+    margin-bottom: -330px;
+    position: absolute;
+    margin-top: 200px;
+}
