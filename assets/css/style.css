@@ -36,3 +36,48 @@
     position: absolute;
     margin-top: 200px;
 }
+
+
+/* btn cewek-cowok */
+.btn-cewek.btn-floating{
+  margin-top: -620px;
+  margin-left: 200px;
+}
+
+.btn-cowok.btn-floating{
+  margin-top: -620px;
+  margin-left: 450px;
+}
+
+/* /btn cewek-cowok */
+
+
+.btn-galery_1.btn-floating {
+    margin-top: -620px;
+    margin-left: 195px;
+}
+
+.btn-galery_2.btn-floating {
+    margin-top: -620px;
+    margin-left: 120px;
+}
+
+.btn-galery_3.btn-floating {
+    margin-top: -620px;
+    margin-left: 120px;
+}
+
+.btn-galery_4.btn-floating {
+    margin-top: -620px;
+    margin-left: 125px;
+}
+
+.btn-galery3-left.btn-floating{
+  margin-top: -620px;
+  margin-left: 290px;
+}
+
+.btn-galery3-right.btn-floating{
+  margin-top: -620px;
+  margin-left: 290px;
+}
