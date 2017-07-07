@@ -6,6 +6,17 @@
     margin-bottom: 30px;
 }*/
 
+.mdb-skin .side-nav .logo-wrapper {
+    background: url('../../konten/bg_side/bg.png') no-repeat center center;
+    background-size: cover;
+    height: 180px;
+}
+
+.side-nav .logo-wrapper a {
+    margin-top: 20%;
+    height: 80px;
+}
+
 .busana.carousel-control.left,
 .busana.carousel-control.right {
   background: none;
