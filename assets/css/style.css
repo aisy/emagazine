@@ -1,15 +1,20 @@
 /* YOUR CUSTOM STYLES */
 
+
 /*.carousel {
     height: 245px;
     margin-top: 0px;
     margin-bottom: 30px;
 }*/
 
-.mdb-skin .side-nav .logo-wrapper {
+.light-grey-skin .side-nav .logo-wrapper {
     background: url('../../konten/bg_side/bg.png') no-repeat center center;
     background-size: cover;
     height: 180px;
+}
+
+.bod-color {
+    background-color: #eee6d3;
 }
 
 .side-nav .logo-wrapper a {
@@ -19,25 +24,26 @@
 
 .busana.carousel-control.left,
 .busana.carousel-control.right {
-  background: none;
-  border: none;
+    background: none;
+    border: none;
 }
 
 .busana.carousel-control.left {
-  margin-left: -25px;
+    margin-left: -25px;
 }
 
 .busana.carousel-control.right {
-  margin-right: -25px;
+    margin-right: -5px;
 }
 
 .busana.carousel-control {
-  width: 0%;
+    width: 0%;
 }
 
-.busana.carousel-control .icon-prev, .busana.carousel-control .icon-next {
-    width:10px;
-    height:10px;
+.busana.carousel-control .icon-prev,
+.busana.carousel-control .icon-next {
+    width: 10px;
+    height: 10px;
     /* margin-top: -15px; */
     font-size: 70px;
 }
@@ -46,22 +52,72 @@
     margin-bottom: -330px;
     position: absolute;
     margin-top: 200px;
+    width: 100%;
+    margin-left: -50%;
+}
+
+.foto_kecil {
+    margin-top: -720px;
+    /* height: 180px; */
+    width: 20%;
+    margin-left: 25px;
+}
+
+.foto_kecil2 {
+    margin-top: -718px;
+    /* height: 550px; */
+    width: 280px;
+    margin-left: 127px;
+}
+
+#iv-container {
+    z-index: 1053;
+}
+
+.iv-image-view {
+    z-index: 1054;
+}
+
+.iv-close {
+    z-index: 1054;
+}
+
+.gallery-items {
+    cursor: zoom-in;
 }
 
 
 /* btn cewek-cowok */
-.btn-cewek.btn-floating{
-  margin-top: -620px;
-  margin-left: 200px;
+
+.btn-cewek.btn-floating {
+    margin-top: -620px;
+    margin-left: 200px;
 }
 
-.btn-cowok.btn-floating{
-  margin-top: -620px;
-  margin-left: 450px;
+.btn-cowok.btn-floating {
+    margin-top: -620px;
+    margin-left: 450px;
 }
+
 
 /* /btn cewek-cowok */
 
+.img-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 274px;
+    height: 643px;
+    line-height: 37px;
+    padding: 0;
+    background-color: #aa66cc;
+    /*-webkit-border-radius: 50%; 
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;*/
+}
 
 .btn-galery_1.btn-floating {
     margin-top: -620px;
@@ -83,12 +139,79 @@
     margin-left: 125px;
 }
 
-.btn-galery3-left.btn-floating{
-  margin-top: -620px;
-  margin-left: 290px;
+.btn-galery3-left.btn-floating {
+    margin-top: -620px;
+    margin-left: 290px;
 }
 
-.btn-galery3-right.btn-floating{
-  margin-top: -620px;
-  margin-left: 290px;
+.btn-galery3-right.btn-floating {
+    margin-top: -620px;
+    margin-left: 290px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width:720px) {
+    .carousel-thumbnails .carousel-indicators {
+        margin-bottom: -90%;
+        /* position: absolute;
+    margin-top: 200px; */
+    }
+    .btn-cewek.btn-floating {
+        margin-top: -70%;
+        margin-left: 25%;
+    }
+    .btn-cowok.btn-floating {
+        margin-top: -80%;
+        margin-left: 73%;
+    }
+    .foto_kecil {
+        margin-top: -70%;
+         /* height: 180px;  */
+        width: 90px;
+        margin-left: 5%;
+    }
+    .foto_kecil2 {
+        margin-top: -70%;
+        /* height: 550px; */
+        width: 100px;
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width:369px) {
+    .carousel-thumbnails .carousel-indicators {
+        margin-bottom: -60%;
+        /* position: absolute;
+    margin-top: 200px; */
+    }
+    .busana.carousel-control.left {
+        margin-left: 0px;
+    }
+    .busana.carousel-control.right {
+        margin-right: 12px;
+    }
+
+    .btn-cewek.btn-floating {
+        margin-top: -70%;
+        margin-left: 25%;
+    }
+    .btn-cowok.btn-floating {
+        margin-top: -80%;
+        margin-left: 73%;
+    }
+    .foto_kecil {
+        margin-top: -70%;
+         /* height: 180px;  */
+        width: 50px;
+        margin-left: 25px;
+    }
+    .foto_kecil2 {
+        margin-top: -70%;
+        /* height: 550px; */
+        width: 70px;
+        margin-left: 20%;
+    }
 }
