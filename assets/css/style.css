@@ -60,14 +60,23 @@
     margin-top: -720px;
     /* height: 180px; */
     width: 20%;
-    margin-left: 25px;
+    /* margin-left: 25px; */
+    margin-left: 3.7%;
 }
 
 .foto_kecil2 {
-    margin-top: -718px;
+    margin-top: -70%;
     /* height: 550px; */
-    width: 280px;
-    margin-left: 127px;
+    width: 33%;
+    /* default is 16%  */
+    margin-left: 16%;
+    margin-right: 2%;
+}
+
+.foto_kecil3 {
+    margin-top: -70%;
+    /* height: 550px; */
+    width: 33%;
 }
 
 #iv-container {
@@ -152,6 +161,21 @@
 
 /* RESPONSIVE */
 
+@media (max-width:1280px) {
+    .foto_kecil2 {
+        margin-top: -70%;
+        /* height: 550px; */
+        width: 33%;
+        margin-left: 16%;
+    }
+
+    .foto_kecil3 {
+        margin-top: -70%;
+        /* height: 550px; */
+        width: 33%;
+    }
+}
+
 @media (max-width:720px) {
     .carousel-thumbnails .carousel-indicators {
         margin-bottom: -90%;
@@ -168,18 +192,22 @@
     }
     .foto_kecil {
         margin-top: -70%;
-         /* height: 180px;  */
+        /* height: 180px;  */
         width: 90px;
         margin-left: 5%;
     }
     .foto_kecil2 {
         margin-top: -70%;
         /* height: 550px; */
-        width: 100px;
-        margin-left: 20%;
+        width: 32%;
+        margin-left: 17%;
+    }
+    .foto_kecil3 {
+        margin-top: -70%;
+        /* height: 550px; */
+        width: 32%;
     }
 }
-
 
 @media (max-width:369px) {
     .carousel-thumbnails .carousel-indicators {
@@ -193,7 +221,6 @@
     .busana.carousel-control.right {
         margin-right: 12px;
     }
-
     .btn-cewek.btn-floating {
         margin-top: -70%;
         margin-left: 25%;
@@ -204,7 +231,7 @@
     }
     .foto_kecil {
         margin-top: -70%;
-         /* height: 180px;  */
+        /* height: 180px;  */
         width: 50px;
         margin-left: 25px;
     }
@@ -212,6 +239,15 @@
         margin-top: -70%;
         /* height: 550px; */
         width: 70px;
-        margin-left: 20%;
+        margin-left: 24%;
+    }
+    .foto_kecil3 {
+        margin-top: -70%;
+        width: 70px;
+        /* height: 550px; */
+        /* width: 33%; */
+        /* default is 16%  */
+        /* left:-50%; */
+        /* margin-right: 11%;   */
     }
 }
